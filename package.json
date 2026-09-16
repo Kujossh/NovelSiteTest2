@@ -1,0 +1,21 @@
+{
+  "name": "novel-reading-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A novel chapter reader with admin editing and section-based background music crossfades.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.10.0",
+    "cookie-session": "^2.1.0",
+    "express": "^5.1.0",
+    "multer": "^2.0.2",
+    "ejs": "^3.1.10"
+  }
+}
